@@ -1,0 +1,29 @@
+.mindmapContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.addButton {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.addButton:hover {
+    background-color: #45a049;
+}
+
+.flowContainer {
+    flex-grow: 1;
+}
