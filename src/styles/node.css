@@ -1,0 +1,64 @@
+/* styles/node.css */
+
+/* Line that resizes the node */
+.noderesize-line {
+    width: 100%;
+    /* Full width */
+    height: 2px;
+    /* Adjust height as needed */
+    background-color: blue;
+    /* Change color as needed */
+    position: absolute;
+    /* Positioning to cover the node */
+    top: 0;
+    /* Align to the top */
+    left: 0;
+    /* Align to the left */
+    z-index: 1;
+    /* Ensure it appears above other elements */
+}
+
+/* Handles for resizing */
+.noderesize-handle {
+    width: 10px;
+    /* Adjust handle size */
+    height: 10px;
+    /* Adjust handle size */
+    background-color: blue;
+    /* Change color as needed */
+    border-radius: 50%;
+    /* Make handles circular */
+    position: absolute;
+    /* Positioning for handles */
+    z-index: 2;
+    /* Ensure handles are above the line */
+}
+
+/* Position handles at corners */
+.noderesize-handle.top-left {
+    top: -5px;
+    /* Adjust for handle size */
+    left: -5px;
+    /* Adjust for handle size */
+}
+
+.noderesize-handle.top-right {
+    top: -5px;
+    /* Adjust for handle size */
+    right: -5px;
+    /* Adjust for handle size */
+}
+
+.noderesize-handle.bottom-left {
+    bottom: -5px;
+    /* Adjust for handle size */
+    left: -5px;
+    /* Adjust for handle size */
+}
+
+.noderesize-handle.bottom-right {
+    bottom: -5px;
+    /* Adjust for handle size */
+    right: -5px;
+    /* Adjust for handle size */
+}

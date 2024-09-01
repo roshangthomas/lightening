@@ -7,9 +7,11 @@ import ReactFlow, {
     useNodesState,
     useEdgesState,
     ReactFlowProvider,
-} from 'react-flow-renderer';
+} from 'reactflow';
 import CustomNode from './node';
 import styles from '../styles/Mindmap.module.css';
+
+import 'reactflow/dist/style.css';
 
 const nodeTypes = {
     custom: CustomNode,
