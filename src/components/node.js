@@ -32,7 +32,6 @@ const CustomNode = ({ data, isConnectable }) => {
                 width: '100%',
                 height: '100%'
             }}>
-                <Handle type="target" position={Position.Top} isConnectable={isConnectable} />
                 <Handle type="target" position={Position.Left} isConnectable={isConnectable} />
                 <textarea
                     value={text}
@@ -48,7 +47,6 @@ const CustomNode = ({ data, isConnectable }) => {
                     }}
                 />
                 <Handle type="source" position={Position.Right} isConnectable={isConnectable} />
-                <Handle type="source" position={Position.Bottom} isConnectable={isConnectable} />
             </div>
         </>
     );
